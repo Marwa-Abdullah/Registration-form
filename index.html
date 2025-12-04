@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport">
     <title>User Registration</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,31 +11,31 @@
 <body>
 
     <main class="container">
-        <form id="regForm" class="card">
+        <form id="regForm" class="card" novalidate>
             <h1 class="title">Create Account</h1>
 
             <div class="group">
                 <label for="name">Full Name :</label>
-                <input id="name" type="text" placeholder="your name">
+                <input id="name" name="name" type="text" placeholder="your name" >
             </div>
 
             <div class="group">
                 <label for="email">Email :</label>
-                <input id="email" type="email" placeholder="your email">
+                <input id="email"  name="email" type="email" placeholder="your email" autocomplete="email" >
             </div>
 
             <div class="group">
                 <label for="password">Password :</label>
-                <input id="password" type="password" placeholder="password">
+                <input id="password" name="password" type="password" placeholder="password" >
             </div>
 
             <div class="group">
                 <label for="confirm">Confirm Password :</label>
-                <input id="confirm" type="password" placeholder="Re-enter password">
+                <input id="confirm" name="confirm" type="password" placeholder="Re-enter password" >
             </div>
 
             <p id="errorMsg" class="error"></p>
-            <button class="btn" type="submit">Register</button>
+            <button class="btn" name="btn" type="submit">Register</button>
         </form>
     </main>
 

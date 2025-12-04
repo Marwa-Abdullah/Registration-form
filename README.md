@@ -1,16 +1,21 @@
-# My Registration Form
+#A clean registration form built with HTML, CSS, and JavaScript, with a floating animated background.
 
-A simple and clean registration form made with HTML, CSS, and JavaScript.  
+#What it does:
 
-## What it does
+-Validates that all fields are completed.
 
-- Checks that all fields are filled.  
-- Makes sure email looks right.  
-- Password must be at least 6 characters and match the confirmation.  
-- Shows error messages with a little shake effect.  
+-Checks if the email format is correct.
 
-## How to use
+-Ensures the password is at least 6 characters and matches the confirmation.
 
-1. Download or clone the repo.  
-2. Open `index.html` in your browser.  
-3. Try filling the form to see it work. 
+-Shows clear error messages when something is wrong.
+
+-Creates animated floating shapes in the background.
+
+#How to use:
+
+-Download or clone the project.
+
+-Open index.html in your browser.
+
+-Fill out the form to test the validation and background animation.
